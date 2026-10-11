@@ -4,6 +4,26 @@ Tự động phát hiện phiên TikTok Live kết thúc, reboot điện thoại
 
 ---
 
+## Tải về
+
+### Cách 1 — Clone bằng Git
+```bash
+git clone https://github.com/swtneko/tiktok-live-adb-shutdown.git
+cd tiktok-live-adb-shutdown
+npm install tiktok-live-connector
+```
+
+### Cách 2 — Tải ZIP (không cần Git)
+1. Vào https://github.com/swtneko/tiktok-live-adb-shutdown
+2. Bấm nút **Code** (màu xanh) → **Download ZIP**
+3. Giải nén ra thư mục bất kỳ
+4. Mở CMD trong thư mục đó:
+   ```bash
+   npm install tiktok-live-connector
+   ```
+
+---
+
 ## Yêu cầu
 
 - **PC**: Windows 10/11
