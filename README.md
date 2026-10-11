@@ -68,7 +68,7 @@ R3CN801234X     device
 
 ### Bước 5 — Chạy tool
 ```bash
-node index.js new.world.015
+node win-android.js new.world.015
 ```
 Script tự detect thiết bị USB, không cần truyền IP.
 
@@ -120,16 +120,16 @@ Settings → Developer Options → **Wireless Debugging** → bật lên
 
 ```bash
 # Tự động detect thiết bị
-node index.js <tiktok_username>
+node win-android.js <tiktok_username>
 
 # Chỉ định IP:PORT
-node index.js <tiktok_username> 192.168.x.x:45678
+node win-android.js <tiktok_username> 192.168.x.x:45678
 ```
 
 **Ví dụ:**
 ```bash
-node index.js new.world.015
-node index.js new.world.015 192.168.1.101:45678
+node win-android.js new.world.015
+node win-android.js new.world.015 192.168.1.101:45678
 ```
 
 ---
